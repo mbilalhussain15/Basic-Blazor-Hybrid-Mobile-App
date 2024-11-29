@@ -1,0 +1,10 @@
+﻿@page "/notification"
+@inject AppState AppState
+<h3>Notification</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.setSelectedMenuItem(AppConstants.MeniItems.Notification);
+    }
+}

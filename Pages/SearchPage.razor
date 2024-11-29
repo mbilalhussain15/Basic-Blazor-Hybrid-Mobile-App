@@ -1,0 +1,10 @@
+﻿@page "/search"
+@inject AppState AppState
+<h3>Search</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.setSelectedMenuItem(AppConstants.MeniItems.Search);
+    }
+}

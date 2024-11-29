@@ -1,0 +1,18 @@
+/* /Shared/MainLayout.razor.rz.scp.css */
+
+.top-navbar[b-nakgh83kd4] 
+{
+    height: var(--navbar-height);
+    z-index:10;
+}
+.body-content[b-nakgh83kd4] {
+    padding-top: var(--navbar-height);
+}
+.bottom-tabbar[b-nakgh83kd4] {
+    bottom: 5px;
+    z-index: 10;
+    background-color:#FF7205 !important;
+}
+.light-white[b-nakgh83kd4] {
+    color:#d8d8d8 !important;
+}

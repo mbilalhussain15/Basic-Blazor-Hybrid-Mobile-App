@@ -1,0 +1,10 @@
+﻿@page "/add_device"
+@inject AppState AppState
+<h3>Add Device</h3>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        AppState.setSelectedMenuItem(AppConstants.MeniItems.AddDevice);
+    }
+}

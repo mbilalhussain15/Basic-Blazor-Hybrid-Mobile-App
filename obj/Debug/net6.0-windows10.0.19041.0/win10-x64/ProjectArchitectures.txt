@@ -1,0 +1,1 @@
+C:\Users\MuhammadHussain\Pictures\BlazorApp\TripExpenseManager\SampleProject1.csproj;x64
